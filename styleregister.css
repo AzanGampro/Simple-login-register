@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #EBEBEB;
+}
+
+.container {
+  background-color: ghostwhite;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 40% auto;
+  padding: 15px;
+  width: 320px;
+  height: 427px;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 13px grey,
+  0px 0px 12px rgba(26, 26, 26, 1),
+  1px 1px 2px grey inset;
+}
+
+.header h3 {
+  text-align: center;
+  margin: 14px auto;
+}
+.btn button {
+  width: 180px;
+  height: 39px;
+  border: none;
+}
+.btn .button-blue {
+  border-top-right-radius: 10px;
+  background-color: none;
+  background: transparent;
+  border-bottom-right-radius: 10px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 15.3px;
+  color: #19191B;
+}
+.btn .button-rigth {
+  border-radius: 10px;
+  background-color: #2938DA;
+  height: 40px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 15.3px;
+  box-shadow: 0px 0px 50px #191E5F inset;
+  width: 200px;
+}
+.btn  {
+  height: 40px;
+  border-radius: 10px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0px auto;
+  border: 1px solid grey;
+  width: 270.8px;
+  margin-bottom: 10%;
+}
+
+.input-box {
+  font-size: 12px;
+}
+.input-box input {
+  width: 270px;
+  height: 39.5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 7px auto;
+  border-radius: 10px;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border: 1.1px solid gray;
+}
+/*.input-box p { 
+  padding: 3.7px;
+  margin: 8px auto;
+}*/
+
+.input-box input:hover {
+  border-color: #191E5F;
+  border: 1.6px solid #191E5F;
+  box-shadow: 0px 0px 6px #191E5F,
+  0px 0px 5px rgba(183, 216, 255, 1);
+}
+.input-box button {
+  height: 36.7px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2938DA;
+  box-shadow: 0px 0px 50px #191E5F inset;
+  color: whitesmoke;
+  font-weight: 500;
+  width: 275px;
+  margin: 11.1px;
+  font-size: 15px;
+  margin-bottom: 5.8%;
+  cursor: pointer;
+}
+.input-box button:hover {
+  background-color: black;
+  box-shadow: 0px 0px 14px #000;
+}
+
+.link p {
+  text-align: center;
+  font-size: 12px;
+  color: black;
+}
+.link span p {
+  margin: 5px;
+  font-size: 10px;
+  color: rgba(206, 206, 206, 1);
+}
+a:hover {
+  text-decoration: underline;
+}
+a {
+  font-weight: 500;
+  color: royalblue;
+  text-decoration: none;
+}

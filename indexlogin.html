@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="stylelogin.css">
+</head>
+  <body>
+   <div class="container"> 
+    <form action="">
+      <div class="header">
+        <h3>LOGIN</h3>
+      </div>
+      <div class="btn">
+        <button class="button-blue" type="submit">Login</button>
+        <button class="button-rigth" type="submit">Register</button>
+      </div>
+      <div class="input-box">
+        <div class="user"><i class="fas fa-user"></i></div>
+        <input type="text" placeholder="enter your email" required >
+        
+        <div class="lock"><i class="fas fa-lock"></i></div>
+        <input type="password" placeholder="enter your password" id="pwd" required >
+        
+        <div class="show-password">
+          <input type="checkbox" onclick="pwd.type = this.checked ? 'text' : 'password'">
+          <p>show password</p>
+        </div>
+        
+        <p class="forgot"><a href="#">forgot password?</a></p>
+        <button class="login" type="submit">Login</button>
+      </div>
+      <div class="link">
+        <p>Don't have an account don't?<a href="index2register.html">Register</a></p>
+        <span><p>&copy;2025 | azandevploment</p></span>
+      </div>
+    </form>
+  </div>
+  <script>
+    // memberitahu offline dan online
+    window.addEventListener("online", () => alert("you are online"))
+    window.addEventListener("offline", () => alert("you are offline "))
+  </script>
+  </body>
+</html>
